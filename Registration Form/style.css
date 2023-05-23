@@ -1,0 +1,233 @@
+/* screen sizes */
+/* small screens */
+@media screen and (min-width: 480px){}
+/* medium screens */
+@media screen and (min-width: 768px) {}
+/* large screens */
+@media screen and (min-width: 900px) {}
+
+body{
+    width: 98%;
+    margin: auto;
+    border: none;
+}
+@media screen and (min-width: 900px){
+    body{
+        padding: 0.5rem;
+    }
+}
+
+#header{
+    color: white;
+    background-color: #0C4B88;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+@media screen and (min-width: 900px){
+    #header{
+        display: flex;
+    }
+}
+.column{
+    border: none;
+}
+@media screen and (min-width: 900px) {
+    .column {
+        flex: 50%;
+    }
+}
+#logo{
+    position: relative;
+    width: 460px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 900px) {
+    #logo{
+        width: 760;
+        margin: auto;
+    }
+}
+.reg{
+    background-color: black;
+}
+@media screen and (min-width: 900px) {
+    .reg{
+        background-color: black;
+        border-top-right-radius: 1rem;
+    }
+}
+fieldset{
+    border: none;
+}
+.row{
+    display: flex;
+}
+.column1{
+    flex: 50%;
+}
+@media screen and (min-width: 900px) {
+    .row1{
+        display: flex;
+    }
+}
+label{
+    margin: 0.5rem;
+    /* text-align: center; */
+}
+input{
+    margin: 0.5rem;
+}
+h2{
+    color: white;
+    background-color: #0C4B88;
+    text-align: center;
+}
+h3{
+    color: white;
+    background-color: #0C4B88;
+    text-align: center;
+}
+.h4{
+    color: white;
+    background-color: #0C4B88;
+    text-align: center;
+}
+div{
+    border: #0C4B88 solid 3.5px;
+}
+@media screen and (min-width: 768px) {
+    div{
+        border:  #0C4B88 solid 4px;
+    }
+}
+.size{
+    margin-left: 8px;
+    border: none;
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+.border{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.no-border{
+    border: none;
+    margin-right: 3%;
+}
+p{
+    font-size: clamp(medium, large, larger);
+    margin: 1.5rem;
+}
+hr{
+    width: 95%;
+}
+table{
+    margin-left: 1.5rem;
+}
+td,th{
+    border: solid;
+    border-color: #0C4B88;
+}
+.bold{
+    font-weight: bold;
+}
+
+.bob{
+    padding: 0.3rem;
+}
+.header1{
+    color: white;
+    background-color: #0C4B88;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.flex{
+    display: flex;
+}
+#hehe{
+    margin-top: 5.2rem;
+}
+.line{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #0C4B88;
+}
+#bobuncle{
+    border: solid 3.5px #0C4B88;
+    width: 100%;
+}
+ol>li{
+    margin: 0.3rem;
+}
+#tygen{
+    margin: 1rem;
+}
+@media screen and (min-width: 900px){
+    #tygen{
+        display: flex;
+    }
+}
+@media screen and (min-width: 768px) {
+    .list-item{
+        margin-bottom: 3px;
+    }
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: white;
+}
+
+  /* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+    #q2{
+        margin-left: 1rem;
+    }
+}
+.space{
+    margin: 1.5rem;
+    border: none;
+}
+/* Making the textarea responsive */
+#comments1{
+    margin: auto;
+    width: 95%;
+    height: 35px;
+    padding: 15px;
+    resize: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #0C4B88;
+    max-height: 300px;
+}
+#comments1:is(:focus, :valid){
+    border-color: black;
+}
+#comments1::-webkit-scrollbar{
+    width: 0;
+}
